@@ -15,6 +15,7 @@ Lead Designer
 
 
 The game was made in using Winforms in visual studio, a technology that we were not aware was no longer in use until after the competition. The game has a pseudo game loop run by several timers on triggering events at repeated intervals, such as lowering health or recharging energy. Simple animations are made the same way, with the image item on the WinForm switching back and forth on 1 second intervals between the two images. The code overall is very gross and inefficient, as it was written in one quick run over an entire night, but we were able to make a functional game in a language we had not directly used before (C#) and a technology that was completely new to us (WinForms).
+NOTE: most of the code that was directly written by us is in catagatchi/Catagatchi/Form1.cs, the rest is either calling a constructor from that code or auto generated
 
 Collin Dietz,
 Lead Programmer
